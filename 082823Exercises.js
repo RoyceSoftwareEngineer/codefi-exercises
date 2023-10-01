@@ -57,7 +57,7 @@ else{
     }
     console.log(`The factorial of ${Numbe} is ${fact}.`);
 }
-//This prints out the factioria of a given number based on the input
+//This prints out the factiorial of a given number based on the input
 //given.//
 
 //exercise 8//
@@ -94,3 +94,22 @@ if (isNaN(year)) {
 }
 //prints out whether a given year is a leap year or not.
 
+//exercise 9
+let sum= 0;
+let i=1;
+while(i <=100){
+  sum+=sum;
+  i++;
+}
+console.log('the sum of all numbers from 1 to 100 is' + i);
+//No ideda why I cannot ge this to work.
+
+//exercise 10
+
+let a = +prompt("Enter first number");
+let b = +prompt("Enter second number");
+console.log(a + b);
+console.log(a - b);
+console.log(a / b);
+console.log(a * b);
+//prints the four operations to the console.
