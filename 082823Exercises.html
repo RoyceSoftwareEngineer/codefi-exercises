@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>082823Exercises</title>
+</head>
+<body>
+   <script>
+   var Name=('Royce');
+    console.log(Name);
+
+    console.log('hello World!')
+
+    let x=5;
+let y=4;
+ let rectangleArea= x*y 
+console.log(rectangleArea)
+
+const number= prompt('Enter a number: ');
+if (number % 2==0){
+    console.log('This number is even.');
+}
+else {
+    console.log('This number is odd.');
+}
+
+function countTen(){
+for(var i=1; i<=10; i++){
+    console.log(i);
+}}
+
+countTen()
+
+const name= prompt('What is your name?');
+function greet(prompt){
+ console.log('Hello,' + name + '!');
+}
+greet(prompt);
+
+const Number= parseInt(prompt('Enter a positive interger: '));
+if(Number<0){
+    console.log('A factorial for a negative number does not exist!');
+}
+else if(Number === 0){
+    console.log(`the factorial of ${Number} is 1`);
+}
+else{
+    let fact=1;4
+    for(i=1; i <=Number; i++){
+        fact*=i;
+    }
+    console.log(`The factorial of ${Number} is ${fact}.`);
+}
+let year=prompt('Enter a year: ');
+if (isNaN(year)) {
+  console.log("Invalid input. Please enter a valid year.");
+} else {
+  let isLeapYear = false;
+  if (year % 4 === 0) {   
+    if (year % 100 === 0) {    
+      if (year % 400 === 0) {       
+        isLeapYear = true;
+      }
+    } else {     
+      isLeapYear = true;
+    }
+  }
+
+  if (isLeapYear) {
+    console.log(year + " is a leap year.");
+  } else {
+    console.log(year + " is not a leap year.");
+  }
+}
+
+
+    </script>
+
+</body>
+</html>
