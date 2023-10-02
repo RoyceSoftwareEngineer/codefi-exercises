@@ -102,7 +102,7 @@ while(i <=100){
   i++;
 }
 console.log('the sum of all numbers from 1 to 100 is' + i);
-//No ideda why I cannot ge this to work.
+//No idea why I cannot ge this to work.
 
 //exercise 10
 
